@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Bitter', serif;
+}
+.mainApp{
+    display: flex;
+    background-color: #FCAEAE;
+    height: 100vh;
+}
+.kutu{
+    height: 650px;
+    width: 400px;
+    background-color: #FF6666;
+    margin: auto;
+    border-radius: 10px;
+}
+.title
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    padding: 15px;
+}
+.titleArea{
+    background-color: #176B87;
+    border-radius: 10px;
+    margin: 10px;
+}
+.ekle{
+    margin: 25px;
+}
+.input-group{
+    margin: auto;
+}
+.doBox{
+    border-radius: 10px;
+    width: 350px !important;
+    height: auto;
+    background-color: #FFEADD;
+    margin-bottom: 30px !important;
+    margin-left: auto;
+    margin-right: auto;
+}
+#contentText{
+    color: #001C30;
+    height: 80px;
+    font-size: 17px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+ul li{
+    list-style: none;
+}
+.fa-solid{
+    font-size: 20px;
+    margin: 6px;
+}
+.fa-pen-to-square{
+    color: #3C486B;
+}
+.flex-container {
+    display: flex;
+    list-style: none; 
+    padding: 0;
+    margin: 0 !important;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px !important;
+}
+  
+.flex-container li {
+margin-right: 10px; /* İstenilen sağ boşluk miktarı */
+}
+.col-8,
+.col-4{
+    padding: 0 !important;
+}  
+#contentText{
+    margin: 0;
+}
+#enter,
+#save{
+    background-color: #176B87 !important;
+    color: #fff;
+    border-radius: 0 5px 5px 0px;
+}
+.page-link{
+    background-color: #176B87 !important;
+    color: #fff !important;
+    border: 1px #176B87 !important;
+}
+.fa-pen-to-square{
+    color: #00235B;
+    font-size: 25px;
+}
+.fa-trash{
+    color: #E21818;
+    font-size: 25px;
+}
+.fa-check{
+    color: #5D9C59;
+    font-size: 25px;
+}
+@media screen and (max-width: 768px) {
+    .kutu{
+        height: 650px;
+        width: 350px;
+        background-color: #FF6666;
+        margin: auto;
+        border-radius: 10px;
+    }
+    .doBox{
+        border-radius: 10px;
+        width: 300px !important;
+        height: auto;
+        background-color: #FFEADD;
+        margin-bottom: 30px !important;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .fa-pen-to-square{
+        color: #00235B;
+        font-size: 20px;
+    }
+    .fa-trash{
+        color: #E21818;
+        font-size: 20px;
+    }
+    .fa-check{
+        color: #5D9C59;
+        font-size: 20px;
+    }
+}    
+  
